@@ -21,7 +21,8 @@ namespace MVP_Chat.Models
 
         public string GetFullMessageText()
         {
-            return "From: " + this.Sender.Login + "     To: " + this.Receiver.Login + "     Message: " + this.MessageText + "      " + new DateTime().ToShortTimeString();
+            return "From: " + this.Sender.Login + "     To: " + this.Receiver.Login + "     Message: " + this.MessageText 
+                + "      " + DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString();
         }
 
         public IUser Sender { get => sender; set => sender = value; }

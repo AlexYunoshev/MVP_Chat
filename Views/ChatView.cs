@@ -13,8 +13,6 @@ using MVP_Chat.Presenters;
 
 namespace MVP_Chat
 {
-
-
     public partial class ChatView : Form, IChatView
     {
         private IUser sender;

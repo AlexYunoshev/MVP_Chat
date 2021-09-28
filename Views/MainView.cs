@@ -23,16 +23,12 @@ namespace MVP_Chat
 
         private void buttonOpenChatOleksandr_Click(object sender, EventArgs e)
         {
-            //chatViewOleksandr = new ChatView(Data.Users[0], Data.Users[1]);
             chatViewOleksandr.Show();
-
-            //chatViewOleksandr.MessageUpdateEvent += chatViewSerhii.buttonSend_Click(this,);
             chatViewOleksandr.MessageUpdateEvent += chatViewSerhii.GetMessage;
         }
 
         private void buttonOpenChatSerhii_Click(object sender, EventArgs e)
         {
-            //chatViewSerhii = new ChatView(Data.Users[1], Data.Users[0]);
             chatViewSerhii.Show();
             chatViewSerhii.MessageUpdateEvent += chatViewOleksandr.GetMessage;
         }

@@ -11,8 +11,6 @@ namespace MVP_Chat.Presenters
     public class ChatPresenter
     {
         IChatView chatView;
-     
-       
 
         public ChatPresenter(IChatView chatView)
         {
@@ -22,7 +20,6 @@ namespace MVP_Chat.Presenters
         public void SendMessage()
         {
             IMessage message = new Message(chatView.Sender, chatView.Receiver, chatView.MessageText);
-           
             chatView.Messages.Add(message);
         }
     }

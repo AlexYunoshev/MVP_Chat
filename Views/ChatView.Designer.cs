@@ -47,7 +47,7 @@ namespace MVP_Chat
             this.listViewMessages.MultiSelect = false;
             this.listViewMessages.Name = "listViewMessages";
             this.listViewMessages.ShowGroups = false;
-            this.listViewMessages.Size = new System.Drawing.Size(308, 426);
+            this.listViewMessages.Size = new System.Drawing.Size(404, 426);
             this.listViewMessages.TabIndex = 0;
             this.listViewMessages.UseCompatibleStateImageBehavior = false;
             this.listViewMessages.View = System.Windows.Forms.View.List;
@@ -61,7 +61,7 @@ namespace MVP_Chat
             // 
             // textBoxReceiverLogin
             // 
-            this.textBoxReceiverLogin.Location = new System.Drawing.Point(180, 41);
+            this.textBoxReceiverLogin.Location = new System.Drawing.Point(276, 41);
             this.textBoxReceiverLogin.Name = "textBoxReceiverLogin";
             this.textBoxReceiverLogin.Size = new System.Drawing.Size(140, 20);
             this.textBoxReceiverLogin.TabIndex = 2;
@@ -77,7 +77,7 @@ namespace MVP_Chat
             // 
             // labelReceiverName
             // 
-            this.labelReceiverName.Location = new System.Drawing.Point(180, 9);
+            this.labelReceiverName.Location = new System.Drawing.Point(276, 9);
             this.labelReceiverName.Name = "labelReceiverName";
             this.labelReceiverName.Size = new System.Drawing.Size(140, 29);
             this.labelReceiverName.TabIndex = 4;
@@ -88,7 +88,7 @@ namespace MVP_Chat
             // 
             this.textBoxMessage.Location = new System.Drawing.Point(12, 527);
             this.textBoxMessage.Name = "textBoxMessage";
-            this.textBoxMessage.Size = new System.Drawing.Size(308, 20);
+            this.textBoxMessage.Size = new System.Drawing.Size(404, 20);
             this.textBoxMessage.TabIndex = 5;
             // 
             // labelMessage
@@ -104,7 +104,7 @@ namespace MVP_Chat
             // 
             this.buttonSend.Location = new System.Drawing.Point(12, 566);
             this.buttonSend.Name = "buttonSend";
-            this.buttonSend.Size = new System.Drawing.Size(308, 23);
+            this.buttonSend.Size = new System.Drawing.Size(404, 23);
             this.buttonSend.TabIndex = 7;
             this.buttonSend.Text = "Send";
             this.buttonSend.UseVisualStyleBackColor = true;
@@ -114,7 +114,7 @@ namespace MVP_Chat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 606);
+            this.ClientSize = new System.Drawing.Size(428, 606);
             this.Controls.Add(this.buttonSend);
             this.Controls.Add(this.labelMessage);
             this.Controls.Add(this.textBoxMessage);
