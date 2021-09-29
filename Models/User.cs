@@ -19,8 +19,5 @@ namespace MVP_Chat.Models
             Login = login;
             Password = password;
         }
-
-        
-
     }
 }

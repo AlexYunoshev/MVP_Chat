@@ -30,8 +30,6 @@ namespace MVP_Chat
 
         public delegate void ChatHandler(IMessage message);
         public event ChatHandler MessageUpdateEvent;
-        //public event EventHandler<MessageEventArgs> MessageUpdateEvent;
-
 
         public ChatView(IUser sender, IUser receiver)
         {
@@ -61,7 +59,6 @@ namespace MVP_Chat
             chatPresenter.SendMessage();
             listViewMessages.Items.Add(messages[messages.Count - 1].GetFullMessageText());
             MessageUpdateEvent?.Invoke(messages[messages.Count - 1]);
-            //MessageUpdateEvent?.Invoke(this, new MessageEventArgs(messages[messages.Count - 1]));
         }
     }
 }
